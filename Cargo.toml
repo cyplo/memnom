@@ -2,6 +2,8 @@
 name = "memnom"
 version = "0.1.0"
 authors = ["Cyryl Płotnicki <cyplo@cyplo.net>"]
+license = "AGPL-3.0-or-later"
+description = "It will eat your memory. A tool to testing systems under memory pressure."
 
 [dependencies]
 sysinfo = "0.5"
