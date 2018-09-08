@@ -12,6 +12,11 @@ version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "circular-queue"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
 name = "crossbeam-deque"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -48,6 +53,11 @@ version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "human-size"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
 name = "lazy_static"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -64,6 +74,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "memnom"
 version = "0.1.0"
 dependencies = [
+ "circular-queue 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "human-size 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "sysinfo 0.5.7 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -149,10 +161,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [metadata]
 "checksum arrayvec 0.4.7 (registry+https://github.com/rust-lang/crates.io-index)" = "a1e964f9e24d588183fcb43503abda40d288c8657dfc27311516ce2f05675aef"
 "checksum cfg-if 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)" = "0c4e7bb64a8ebb0d856483e1e682ea3422f883c5f5615a90d51a2c82fe87fdd3"
+"checksum circular-queue 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "3be63960d0419728d75f18d0132e5da310d2db6ef31db808a733a8566afe5545"
 "checksum crossbeam-deque 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "f739f8c5363aca78cfb059edf753d8f0d36908c348f3d8d1503f03d8b75d9cf3"
 "checksum crossbeam-epoch 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" = "927121f5407de9956180ff5e936fe3cf4324279280001cd56b669d28ee7e9150"
 "checksum crossbeam-utils 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "2760899e32a1d58d5abb31129f8fae5de75220bc2176e77ff7c627ae45c918d9"
 "checksum either 1.5.0 (registry+https://github.com/rust-lang/crates.io-index)" = "3be565ca5c557d7f59e7cfcf1844f9e3033650c929c6566f511e8005f205c1d0"
+"checksum human-size 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "5bec6e801ef7367625bd94ad7e2965e6027189f3e9deef422388d993af2814a0"
 "checksum lazy_static 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ca488b89a5657b0a2ecd45b95609b3e848cf1755da332a0da46e2b2b1cb371a7"
 "checksum libc 0.2.43 (registry+https://github.com/rust-lang/crates.io-index)" = "76e3a3ef172f1a0b9a9ff0dd1491ae5e6c948b94479a3021819ba7d860c8645d"
 "checksum memoffset 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "0f9dc261e2b62d7a622bf416ea3c5245cdd5d9a7fcc428c0d06804dfce1775b3"
