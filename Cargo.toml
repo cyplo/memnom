@@ -1,6 +1,6 @@
 [package]
 name = "memnom"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Cyryl Płotnicki <cyplo@cyplo.net>"]
 license = "AGPL-3.0-or-later"
 description = "It will eat your memory. A tool for testing systems under memory pressure."
